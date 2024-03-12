@@ -1,4 +1,6 @@
-q#include <unistd.h>
+// blabla == write "p\n" for every condition
+
+#include <unistd.h>
 
 int main(void)
 {
