@@ -4,23 +4,21 @@
 
 int    ft_atoi(char *s)
 {
-    int sum;
     int i;
-  
-    sum = 0; 
-    i = 0;
+    int converted;
 
+    i = 0;
+    converted = 0;
     while (s[i]) { 
-        sum = sum + s[i]; 
+         converted = converted * 10 + (s[i] - 48); // first turn: 0*10+shift x to be number; second turn previous *10 (shift to tens) +shift x to be number ...
         i++; 
     }
-
-    return sum; 
+    return converted;
 }
 
 int main(void)
 {
-    char    s[] = "AB";  
+    char    s[] = "1";  
 
     ft_atoi(s);
     printf("%d", ft_atoi(s));
