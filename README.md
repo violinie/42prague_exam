@@ -6,6 +6,7 @@
 - maff_realpha = write wierd ABC (reversed, every other letter capital)
 - ft_strrev = reverse a string (modify it) + return pointer to the string
 - ft_atoi = string to int (bonus: check if it can be an integer)
-- aff_first_param - print first word (not counting spaces or tab)
+- first_word = print first word (not counting spaces or tab)
+- aff_first_param = print first parameter of the program
 - union - print all nonrepeating char from two strings (no doubles)
 - count_words = count all words in sentence
