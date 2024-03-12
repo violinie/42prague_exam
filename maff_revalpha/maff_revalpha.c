@@ -14,10 +14,11 @@ void    maff_realpha(char   *abc)
         char to_print;
         if ((length - i) % 2 == 0) // for even (modulo 2 is always 0): make it uppercase
             to_print = abc[i] - 32; // convert to uppercase == the same as ```abc[i] - ('a' - 'A')```
-        } else 
+        else 
             to_print = abc[i];  // just print the letter
         write(1, &to_print, 1);
         i--;
+    }
 }
 
 int main(void)
@@ -27,3 +28,6 @@ int main(void)
     maff_realpha(abc);
     return (0);
 }
+
+// returning zYxWvUtSrQpOnMlKjIhGfEdCbA
+// i dont know it the right output is ZyX or zYx
