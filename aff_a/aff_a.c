@@ -22,3 +22,5 @@ int main(int argc, char **argv)
         }
     return (0);
 }
+
+// compile: cc aff_a.c && ./a.out "aha"
